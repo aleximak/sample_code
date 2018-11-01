@@ -1,4 +1,5 @@
-    jQuery(document).ready(function() {
+// Back to Top Scroll //
+jQuery(document).ready(function() {
     var offset = 220;
     var duration = 500;
     jQuery(window).scroll(function() {
@@ -15,3 +16,4 @@
         return false;
     })
 });
+
